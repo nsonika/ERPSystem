@@ -229,7 +229,7 @@ const Orders = () => {
 
                 {/* Edit Order Details */}
                 {editingOrder && (
-                    <div className="popup-container">
+                    <div className="popup-container custom-popup">
                         <div className="popup">
                             <div className="card">
                                 <div className="card-headerr">

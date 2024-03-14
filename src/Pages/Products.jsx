@@ -278,10 +278,10 @@ const Products = () => {
                                         </div>
 
                                         <div className="btns">
-                                            <button type="button" className="btn btn-success btn-add" onClick={handleEditProduct}>
+                                            <button type="button" className="btn btn-success" onClick={handleEditProduct}>
                                                 Save Changes
                                             </button>
-                                            <button type="button" className="btn btn-secondary ml-2 btn-cancel" onClick={handleCancelEdit}>
+                                            <button type="button" className="btn btn-secondary ml-2" onClick={handleCancelEdit}>
                                                 Cancel
                                             </button>
                                         </div>
