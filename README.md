@@ -49,5 +49,11 @@ Entne ERP Management System is a web-based application designed to manage variou
 
 ## Screenshot
 
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Login Screenshot](src/assets/login.png)
+![Dashboard Screenshot](src/assests/dashboard.png)
+![Products Screenshot](src/assets/products.png)
+![Orders Screenshot](src/assets/orders.png)
+![Add/Edit Screenshot](src/assets/add.png)
+![View Screenshot](src/assets/view.png)
+
 
