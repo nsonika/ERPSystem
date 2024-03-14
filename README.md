@@ -26,7 +26,7 @@ Entne ERP Management System is a web-based application designed to manage variou
 **1. Download or Clone the Repository:**
    - Download the repository manually or use the following command:
      ```bash
-     git clone https://github.com/your-username/entne-erp-management.git
+     git clone https://github.com/nsonika/ERPSystem
      ```
 
 **2. Open in Code Editor:**
