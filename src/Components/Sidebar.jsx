@@ -17,13 +17,13 @@ const Sidebar = ({ isAuth, signUserOut }) => {
                 {/* Sidebar items with links */}
                 <span className="brand-name">ERPSystem</span>
                 <div className="nav-links">
-                    <Link to="/dashboard" className="">
+                    <Link to="/dashboard" className="nav-link">
                         Dashboard
                     </Link>
-                    <Link to="/products" className="">
+                    <Link to="/products" className="nav-link">
                         Products
                     </Link>
-                    <Link to="/orders" className="">
+                    <Link to="/orders" className="nav-link">
                         Orders
                     </Link>
                 </div>
