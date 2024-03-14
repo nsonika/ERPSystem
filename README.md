@@ -1,15 +1,15 @@
-# Entne ERP Management System
+# ERP System
 
 ## Overview
 
-Entne ERP Management System is a web-based application designed to manage various aspects of an enterprise resource planning system, including products, orders, and dashboard analytics.
+ERP Management System is a web-based application designed to manage various aspects of an enterprise resource planning system, including products, orders, and dashboard analytics. The system utilizes local storage to store product and order data, ensuring seamless user experience without the need for a backend database.
 
 ## Features
 
 - **User Authentication**: Secure user authentication using Firebase authentication.
-- **Dashboard**: Provides an overview of total products, orders, and analytics using Chart.js.
+- **Dashboard**: Provides an overview of total products, orders, and analytics.
 - **Product Management**: Allows admin to add, edit, and delete products.
-- **Order Management**: Enables admin to add, edit, and delete orders, and view orders with a filter calendar.
+- **Order Management**: Enables admin to view, edit, and delete orders, and view orders with a filter calendar.
 - **Responsive Design**: Responsive layout ensures an optimal viewing experience across different devices.
 
 ## Technologies Used
@@ -47,13 +47,31 @@ Entne ERP Management System is a web-based application designed to manage variou
      npm run dev
      ```
 
-## Screenshot
+## Access
 
+- **Admin Credentials:**
+  - **Email:** admin@gmail.com
+  - **Password:** password
+
+- [Hosted link to the ERP System](https://erpsystemassignment.web.app/)
+
+
+## Screenshots
+
+### Login Page
 ![Login Screenshot](src/assets/login.png)
-![Dashboard Screenshot](src/assests/dashboard.png)
+
+### Dashboard
+![Dashboard Screenshot](src/assets/dashboard.png)
+
+### Products Page
 ![Products Screenshot](src/assets/products.png)
+
+### Orders Page
 ![Orders Screenshot](src/assets/orders.png)
+
+### Add/Edit Product Page
 ![Add/Edit Screenshot](src/assets/add.png)
+
+### View Order Page
 ![View Screenshot](src/assets/view.png)
-
-
