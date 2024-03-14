@@ -1,0 +1,133 @@
+/* 
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3A3A5A;
+}
+
+.custom-card {
+    width: 300px;
+    border-radius: 20px;
+    background: #4D4D6C;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
+.custom-card-header {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    background: #4D4D6C;
+}
+
+.custom-card-body {
+    padding: 1rem;
+    background: #4D4D6C;
+}
+
+.custom-label {
+    color: white;
+}
+
+.custom-input {
+    background: #4D4D6C;
+    color: white;
+}
+
+.custom-button {
+    background: #3A3A5A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background: #555576;
+} */
+
+
+
+
+
+
+
+
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3A3A5A;
+    /* margin: auto; */
+}
+
+.custom-card {
+    width: 300px;
+    border-radius: 20px;
+    background: #4D4D6C;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
+.custom-card-header {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    background: #4D4D6C;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.custom-card-body {
+    padding: 1rem;
+    background: #4D4D6C;
+}
+
+.custom-label {
+    color: white;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.custom-input {
+    background: #4D4D6C;
+    color: white;
+    border: 1px solid #707092;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.custom-input:focus {
+    outline: none;
+    border-color: #ADB3C9;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button-group {
+    margin-top: 1rem;
+}
+
+.custom-button {
+    background: #3A3A5A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background: #555576;
+}
+
+.error-message {
+    color: #FF6347;
+    margin-top: 0.5rem;
+}

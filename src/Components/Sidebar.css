@@ -1,0 +1,106 @@
+#sidebar {
+    margin-right: 213.445px;
+}
+
+#sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1faee;
+    display: block;
+    transition: 0.3s;
+    border: none;
+}
+
+#sidebar a:hover {
+    background-color: #1d3557;
+    color: #a8dadc;
+    background-color: #1d3557;
+    color: #a8dadc;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.brand-name {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    color: #f1faee;
+    font-weight: bold;
+}
+
+.nav-links {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.copywrite {
+    margin-top: 500px;
+    margin-left: 40px;
+    color: #FFF;
+}
+
+
+.logout {
+    margin-top: 500px;
+    margin-left: 40px;
+    width: 120.978px;
+    height: 46.234px;
+    flex-shrink: 0;
+    border-radius: 10.788px;
+    background: #FFF;
+    color: #273A34;
+    font-size: 13.87px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.dash {
+    gap: 15px;
+}
+
+
+
+.sidebar-open #sidebar {
+    margin-right: 213.445px;
+}
+
+@media (min-width: 800px) {
+    #sidebar {
+        width: 213.445px;
+        height: 100vh;
+        background-color: #464667;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        margin-right: 213.445px;
+
+    }
+}
+
+#sidebar a.logout {
+    color: #273A34;
+}
+
+#sidebar a.logout:hover {
+    color: #273A34;
+    background-color: #FFF;
+}
+
+
+.nav-links a {
+    position: relative;
+    padding-left: 30px;
+}
+
+.nav-links a:active {
+    color: #a8dadc;
+}

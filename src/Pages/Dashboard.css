@@ -1,0 +1,104 @@
+/* Dashboard.css */
+
+
+.container-xl {
+    margin-top: 5rem;
+    margin-left: 213.445px;
+}
+
+
+.new-container {
+    margin-left: 0;
+
+}
+
+@media (min-width: 800px) {
+    .new-container {
+        margin-left: 213.445px;
+    }
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+.card-bodyy {
+    padding: 1rem;
+}
+
+.dashboard-box {
+    background-color: #3A3A5A;
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.phone-width {
+    margin-left: 213.445px;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInDown {
+    animation-name: slideInDown;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.dashboard-box {
+    background-color: #3A3A5A;
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Dashboard.css */
+a {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit text color */
+}
+
+.dashboard-box {
+    text-decoration: none;
+}

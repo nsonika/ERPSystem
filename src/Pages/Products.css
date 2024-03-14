@@ -1,0 +1,156 @@
+/* Products.css */
+
+.table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+}
+
+.table button {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 125%;
+}
+
+
+.custom-popup {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+}
+
+.card-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: none;
+    border-bottom: none !important;
+}
+
+.custom-card-headerr {
+    border-bottom: none !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding: 6px;
+}
+
+
+.custom-popup .card-body {
+    background-color: #fff;
+    /* White background for the card body */
+    padding: 20px;
+}
+
+.custom-popup .form-group {
+    margin-bottom: 20px;
+}
+
+.custom-popup label {
+    font-weight: bold;
+}
+
+.custom-popup input[type="text"],
+.custom-popup input[type="number"] {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+.custom-popup button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3A3A5A;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-popup button:hover {
+    background-color: #2c2c44;
+}
+
+
+
+
+.btns {
+    gap: 20px;
+}
+
+
+.btn-add {
+    margin-bottom: 10px;
+    background-color: #3A3A5A;
+}
+
+.btn-add,
+.btn-cancel {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3A3A5A;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add:hover,
+.btn-cancel:hover {
+    background-color: #2c2c44;
+}
+
+.btn-cancel {
+    background-color: #6c757d;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* Animation styles */
+@keyframes slideUpTable {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.table.slideUpTable {
+    animation-name: slideUpTable;
+}
